@@ -30,7 +30,7 @@ app.use(function(req, res, next) {
 app.get('/', function(req, res) {
 
     var planet = 'Earth'
-    var tweetText = 'I am on planet ' + planet + '! Which planet are you on? #SpaceAppsNYC #IBMBluemix';
+    var tweetText = 'I am on planet ' + planet + '! Which planet are you on? Find out at http://whichplanetamion.mybluemix.net #WhichPlanetAmIOn #SpaceAppsNYC #IBMBluemix';
     var tweetTextURI = encodeURIComponent(tweetText);
     
     res.render('which', {
