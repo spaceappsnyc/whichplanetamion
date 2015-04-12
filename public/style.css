@@ -1,0 +1,20 @@
+
+p.lead {
+    font-size: 20pt;
+    font-weight: bold;
+    color: green;
+}
+
+span.planet {
+    font-size: 120pt;
+    font-weight: bold;
+    color: green;
+}
+p {
+    font-family: Arial, sans-serif;
+}
+
+#middle {
+  text-align: center;
+  margin-top: 15%;
+}
